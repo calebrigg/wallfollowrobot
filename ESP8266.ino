@@ -64,8 +64,6 @@ void setup() {
   Serial.end();
   Serial.begin(115200);
   
-  Serial.println("WC,");
-  
   //start up the server
   server.begin(); 
 }
